@@ -4,9 +4,7 @@ Este guia busca descrever padrões aceitos na Engenharia de Software para divers
 
 ## Índice
 
-[Nomeação](#nomeação);
-
-
+[Nomeação](#nomeação)
 
 ## Nomeação
 
@@ -31,8 +29,8 @@ Este guia busca descrever padrões aceitos na Engenharia de Software para divers
 
   ```java
   (...)
-  Date date1;
-  Date date2;
+  private Date date1;
+  private Date date2;
   (...)
   ```
 
@@ -40,8 +38,8 @@ Este guia busca descrever padrões aceitos na Engenharia de Software para divers
 
   ```java
   (...)
-  Date startDate;
-  Date finalDate;
+  private Date startDate;
+  private Date finalDate;
   (...)
   ```
 
@@ -51,8 +49,8 @@ Este guia busca descrever padrões aceitos na Engenharia de Software para divers
 
   ```java
   (...)
-  Date genTmstp;
-  Date modTmstp;
+  private Date genTmstp;
+  private Date modTmstp;
   (...)
   ```
 
@@ -60,8 +58,8 @@ Este guia busca descrever padrões aceitos na Engenharia de Software para divers
 
   ```java
   (...)
-  Date generationTimestamp;
-  Date modificationTimestamp;
+  private Date generationTimestamp;
+  private Date modificationTimestamp;
   (...)
   ```
 
