@@ -6,11 +6,14 @@ Este guia busca descrever padrões aceitos na Engenharia de Software para divers
 
 [Nomeação](#nomeação)
 
+
+
 ## Nomeação
 
 + Use nomes que revelem a intenção da variável/função/método/parâmetro/classe.
-  Ex.: 
-
+  
+Ex.: 
+  
   ```java
   class FileHandler {
       
@@ -20,54 +23,57 @@ Este guia busca descrever padrões aceitos na Engenharia de Software para divers
           (...)
       }
   }
-  ```
-
-  O exemplo acima deixa claro que existe uma classe responsável por manusear arquivos que contém um método que lê um arquivo dado seu caminho e também possui uma constante que representa a extensão *.pdf*.
-
+```
+  
+O exemplo acima deixa claro que existe uma classe responsável por manusear arquivos que contém um método que lê um arquivo dado seu caminho e também possui uma constante que representa a extensão *.pdf*.
+  
 + Evite concatenar palavras, letras, números ou símbolos sem sentido nos nomes a fim de distinguir variáveis.
-  Mau exemplo:
-
+  
+Mau exemplo:
+  
   ```java
   (...)
   private Date date1;
   private Date date2;
   (...)
-  ```
-
-  Bom exemplo:
-
+```
+  
+Bom exemplo:
+  
   ```java
   (...)
   private Date startDate;
   private Date finalDate;
   (...)
-  ```
-
+```
+  
 + Use nomes legíveis. 
   Um nome de variável comprido, porém compreensível sempre será melhor para manutenibilidade do código do que um nome reduzido, porém confuso.
-  Mau exemplo:
-
+  
+Mau exemplo:
+  
   ```java
   (...)
   private Date genTmstp;
   private Date modTmstp;
   (...)
-  ```
-
-  Bom exemplo:
-
+```
+  
+Bom exemplo:
+  
   ```java
   (...)
   private Date generationTimestamp;
   private Date modificationTimestamp;
   (...)
-  ```
-
+```
+  
 + Dê preferência para substantivos em nomes de classes e verbos (ou frases verbais) para nomes de métodos.
 
 + Escolha uma palavra para representar cada conceito.
-  Mau exemplo:
-
+  
+Mau exemplo:
+  
   ```java
   (...)
   private Customer fetchCustomer(Long customerId) {
@@ -78,10 +84,10 @@ Este guia busca descrever padrões aceitos na Engenharia de Software para divers
      (...)  
   }
   (...)
-  ```
-
-  Bom exemplo:
-
+```
+  
+Bom exemplo:
+  
   ```java
   (...)
   private Customer fetchCustomer(Long customerId) {
@@ -92,4 +98,5 @@ Este guia busca descrever padrões aceitos na Engenharia de Software para divers
       (...) 
   }
   (...)
-  ```
+```
+  
